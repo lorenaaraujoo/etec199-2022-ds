@@ -21,7 +21,7 @@ public class Filme extends Conteudo {
 		System.out.println("------Filme------");
 		System.out.println("Título: "+super.getTitulo());
 		System.out.println("Gênero: "+super.getGenero());
-		System.out.println("Duração: "+this.duracao+" Minutos");
+		System.out.println("Duração: "+this.duracao+" min");
 		System.out.println("");
 		}
 	
