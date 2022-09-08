@@ -6,7 +6,6 @@ public class Serie extends Conteudo {
 	private int quantidadeEpisodios;
 	private int quantidadeTemporadas;
 	
-	//Super Constructor
 	public Serie(String Genero, String titulo, int duracao, int quantidadeEpisodios, int quantidadeTemporadas) {
 		super(Genero, titulo);
 		this.duracao = duracao;
@@ -14,7 +13,6 @@ public class Serie extends Conteudo {
 		this.quantidadeTemporadas = quantidadeTemporadas;
 	}
 	
-	//Get's and Set's
 	public int getDuracao() {
 		return this.duracao;
 	}
@@ -39,14 +37,13 @@ public class Serie extends Conteudo {
 		this.quantidadeTemporadas = quantidadeTemporadas;
 	}
 	
-	//Method's
 	@Override
 	public void Descricao() {
-		System.out.println("------Série------");
-		System.out.println("Título: "+super.getTitulo());
-		System.out.println("Gênero: "+super.getGenero());
-		System.out.println("Duração por episódio: "+this.duracao+" Minutos");
-		System.out.println("Quantidade de episódios por temporada: "+this.quantidadeEpisodios);
+		System.out.println("------SÃ©rie------");
+		System.out.println("TÃ­tulo: "+super.getTitulo());
+		System.out.println("GÃªnero: "+super.getGenero());
+		System.out.println("DuraÃ§Ã£o por episÃ³dio: "+this.duracao+" Minutos");
+		System.out.println("Quantidade de episÃ³dios por temporada: "+this.quantidadeEpisodios);
 		System.out.println("Quantidade de temporadas: "+this.quantidadeTemporadas);
 		System.out.println("");
 		}	
